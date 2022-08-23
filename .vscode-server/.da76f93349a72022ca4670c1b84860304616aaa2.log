@@ -1,0 +1,169 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:33431 (IPv4)
+Extension host agent listening on 33431
+
+[09:29:40] Extension host agent started.
+[09:29:40] [127.0.0.1][40426a48][ManagementConnection] New connection established.
+[09:29:40] [127.0.0.1][7bb5537a][ExtensionHostConnection] New connection established.
+[09:29:40] [127.0.0.1][7bb5537a][ExtensionHostConnection] <13949> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[09:29:48] Getting Manifest... ms-ceintl.vscode-language-pack-ja
+[09:29:48] Getting Manifest... ms-python.vscode-pylance
+[09:29:48] Getting Manifest... ms-toolsai.jupyter
+[09:29:49] Installing extension: ms-ceintl.vscode-language-pack-ja
+[09:29:49] Installing extension: ms-python.vscode-pylance
+[09:29:49] Installing extension: ms-toolsai.jupyter
+[09:29:49] Downloaded extension: ms-ceintl.vscode-language-pack-ja /home/miura/.vscode-server/data/CachedExtensionVSIXs/ms-ceintl.vscode-language-pack-ja-1.70.8100922
+[09:29:49] Extracted extension to /home/miura/.vscode-server/extensions/.dd738b11-8358-44c2-b7b3-38659cb46609: ms-ceintl.vscode-language-pack-ja
+[09:29:49] Renamed to /home/miura/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ja-1.70.8100922
+[09:29:49] Extracting completed. ms-ceintl.vscode-language-pack-ja
+[09:29:49] Adding language packs from the extension ms-ceintl.vscode-language-pack-ja
+[09:29:49] Extension installed successfully: ms-ceintl.vscode-language-pack-ja
+[09:29:52] Downloaded extension: ms-toolsai.jupyter /home/miura/.vscode-server/data/CachedExtensionVSIXs/ms-toolsai.jupyter-2022.7.1102252217
+[09:29:53] Extracted extension to /home/miura/.vscode-server/extensions/.21bae52d-2c92-42f4-90df-6f3534820514: ms-toolsai.jupyter
+[09:29:53] Renamed to /home/miura/.vscode-server/extensions/ms-toolsai.jupyter-2022.7.1102252217
+[09:29:53] Extracting completed. ms-toolsai.jupyter
+[09:29:53] Extension installed successfully: ms-toolsai.jupyter
+[09:29:53] Downloaded extension: ms-python.vscode-pylance /home/miura/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.8.20
+[09:29:56] Extracted extension to /home/miura/.vscode-server/extensions/.68c06692-78b6-4c99-bab8-a850eda25a1d: ms-python.vscode-pylance
+[09:29:56] Renamed to /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.20
+[09:29:56] Extracting completed. ms-python.vscode-pylance
+[09:29:56] Extension installed successfully: ms-python.vscode-pylance
+[10:07:04] [127.0.0.1][7bb5537a][ExtensionHostConnection] The client has reconnected.
+[10:17:03] [127.0.0.1][a3129333][ManagementConnection] New connection established.
+[10:17:03] [127.0.0.1][cc7e80c6][ExtensionHostConnection] New connection established.
+[10:17:03] [127.0.0.1][cc7e80c6][ExtensionHostConnection] <15500> Launched Extension Host Process.
+[10:17:04] [127.0.0.1][40426a48][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[10:17:04] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/da76f93349a72022ca4670c1b84860304616aaa2/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata:true' -O - http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata:true' http://169.254.169.254/metadata/instance?api-version=2019-03-11\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/latest/meta-data/instance-id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/latest/meta-data/instance-id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    '\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q  -O - http://169.254.169.254/metadata/v1/id\n' +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    '\t\tcurl --connect-timeout 7 -s  http://169.254.169.254/metadata/v1/id\n' +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
+  '-c',
+  'wget --version > /dev/null\n' +
+    'if [ $? -eq 0 ]\n' +
+    'then\n' +
+    "\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    'else\n' +
+    '\tcurl --version > /dev/null\n' +
+    '\tif [ $? -eq 0 ]\n' +
+    '\tthen\n' +
+    "\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n" +
+    '\tfi\n' +
+    'fi\n' +
+    'exit 0'
+]
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 6020 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 1074 chars and 1 size events
+[10:22:03] [127.0.0.1][7bb5537a][ExtensionHostConnection] <13949> Extension Host Process exited with code: 0, signal: null.

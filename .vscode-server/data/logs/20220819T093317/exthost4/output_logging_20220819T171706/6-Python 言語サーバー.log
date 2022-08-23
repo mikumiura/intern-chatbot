@@ -1,0 +1,15 @@
+[Info  - 5:24:38 PM] (2059233) Pylance language server 2022.8.30 (pyright ed13daf1) starting
+[Info  - 5:24:38 PM] (2059233) Server root directory: /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.30/dist
+[Info  - 5:24:38 PM] (2059233) Starting service instance "miura"
+[Info  - 5:24:38 PM] (2059233) Notebook support: LSP
+[Info  - 5:24:38 PM] (2059233) Interactive window support: LSP
+[Info  - 5:24:39 PM] (2059233) No configuration file found.
+[Info  - 5:24:39 PM] (2059233) No pyproject.toml file found.
+[Info  - 5:24:39 PM] (2059233) Setting pythonPath for service "miura": "/usr/bin/python3"
+[Warn  - 5:24:39 PM] (2059233) stubPath /home/miura/typings is not a valid directory.
+[Info  - 5:24:39 PM] (2059233) Assuming Python version 3.10
+[Info  - 5:24:39 PM] (2059233) Assuming Python platform Linux
+[Info  - 5:24:39 PM] (2059233) Searching for source files
+[Info  - 5:24:39 PM] (2059233) Found 8 source files
+[Info  - 5:24:39 PM] (2059233) Background analysis(1) root directory: /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.30/dist
+[Info  - 5:24:39 PM] (2059233) Background analysis(1) started

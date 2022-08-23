@@ -1,0 +1,9 @@
+{
+    "editor.fontLigatures": false,
+    "terminal.integrated.scrollback": 10000,
+    "python.defaultInterpreterPath": "/Users/miura.m/.pyenv/versions/3.10.4/bin/python",
+    "files.exclude": {
+        "**/.local/bin": true,
+        "**/.local/lib/python3.10": true
+    }
+}

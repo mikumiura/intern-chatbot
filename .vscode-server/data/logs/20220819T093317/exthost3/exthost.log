@@ -1,0 +1,594 @@
+[2022-08-19 12:43:34.648] [exthost] [info] Extension host with pid 1855958 started
+[2022-08-19 12:43:34.658] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Lock acquired.
+[2022-08-19 12:43:35.020] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-19 12:43:35.081] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-19 12:43:35.084] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-19 12:43:35.088] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-19 12:43:36.707] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-19 12:43:36.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-19 12:43:37.442] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 12:43:37.458] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 12:43:37.462] [exthost] [info] Eager extensions activated
+[2022-08-19 12:48:50.158] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-08-19 12:50:27.620] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-19 12:50:27.928] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-19 12:50:28.861] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-08-19 12:50:29.098] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-19 12:50:29.797] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 12:50:29.803] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 12:50:29.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 13:51:36.016] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:36.016] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:37.471] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:37.471] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:38.314] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:38.314] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:39.193] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:39.193] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:39.840] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:39.840] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:40.438] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:40.438] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:41.734] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:41.734] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:42.535] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:42.535] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:44.860] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:44.860] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:46.338] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:46.338] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:47.095] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:47.095] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:48.677] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:48.677] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:51.153] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:51.153] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:52.442] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:52.442] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 13:51:57.938] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 13:51:57.938] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:41.681] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:41.681] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:42.519] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:42.519] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:43.526] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:43.526] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:44.518] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:44.518] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:45.940] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:45.940] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:46.540] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:46.540] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:48.517] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:48.518] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:49.959] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:49.959] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:50.888] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:50.888] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:52.123] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:52.123] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:53.014] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:53.014] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:53.488] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:53.488] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:55.647] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:55.647] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:43:57.082] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:43:57.082] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:44:06.073] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:44:06.073] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:45:19.011] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:45:19.011] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:54:49.139] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:54:49.139] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:54:50.393] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:54:50.393] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:54:50.815] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:54:50.815] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:54:51.607] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:54:51.607] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:54:52.907] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:54:52.907] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:54:53.972] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:54:53.972] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:08.025] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:08.025] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:17.090] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:17.091] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:18.211] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:18.211] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:19.419] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:19.419] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:21.742] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:21.742] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:25.657] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:25.657] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:26.566] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:26.566] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:27.281] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:27.281] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:28.007] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:28.007] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:29.201] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:29.201] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:30.007] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:30.007] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:32.099] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:32.100] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:32.753] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:32.753] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:33.515] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:33.515] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 16:55:37.069] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 16:55:37.069] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 17:22:04.749] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-08-19 17:22:04.750] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-19 17:22:04.783] [exthost] [info] Extension host with pid 1855958 exiting with code 0

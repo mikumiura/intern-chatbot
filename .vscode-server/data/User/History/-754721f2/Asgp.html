@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample page</title>
+
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+</head>
+
+
+<body style="text-align:center">
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <div id = "app">
+        <div>
+            <label>星評価</label>
+            <div>
+                <div v-bind:class="{'star-gold':stars[0], 'star-gray':!stars[0]}" v-on:click="star(1)" class="pointer">★</div>
+                <div v-bind:class="{'star-orange':stars[1], 'star-gray':!stars[1]}" v-on:click="star(2)" class="pointer">★</div>
+                <div v-bind:class="{'star-gold':stars[2], 'star-gray':!stars[2]}" v-on:click="star(3)" class="pointer">★</div>
+                <div v-bind:class="{'star-gold':stars[3], 'star-gray':!stars[3]}" v-on:click="star(4)" class="pointer">★</div>
+                <div v-bind:class="{'star-orange':stars[4], 'star-gray':!stars[4]}" v-on:click="star(5)" class="pointer">★</div>
+            </div>
+        </div>
+
+        <div>
+            <label>入力フォーム</label>
+            <div>
+                <textarea v-model="message" cols="50" rows="4"></textarea>
+            </div>
+        </div>
+        
+        <div>
+            <input v-on:click="submit()" type="submit" value="送信" class="pointer">
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    let stars = [false, false, false, false, false];
+
+    const Star = {
+        data() {
+            return {
+                stars,
+                starnum: 0,
+                message: ""
+            }
+        },
+        methods: {
+            star: function(num) {
+                this.starnum = num
+                // 1~num番目までをtrueに置き換える処理
+                for (let i=0; i<num; i++) {
+                    this.stars.splice(i, 1, true)
+                }
+                // num+1~5番目までをfalseに置き換える処理
+                for (let i=num; i<5; i++) {
+                    this.stars.splice(i, 1, false)
+                }
+            },
+            submit: function() {
+                alert("送信完了")
+                location.reload()
+                axios.post('/test', {
+                    starnum: this.starnum,
+                    message: this.message
+                })
+                .then(function(response) {
+                    console.log(response)
+                })
+                .catch(function(error) {
+                    console.log(error)
+                })
+            }
+        }
+    }
+    Vue.createApp(Star).mount("#app")
+</script>
+
+<!--クリックしたら感知はされる。divタグにv-on書く、メソッド作る、メソッドの中にログを出す記述、検証のコンソールでログでてる（感知されてる）ことを確認-->
+<!--star()で1つの関数にして引数によって処理を変える、3押した後に1押すと★が1個だけ黄色になるようにする-->
+<!-- createAppは1個だけ書いて、大元のところでマウントするとdataで出せるかも。詰まったらとりあえずconsole.log()出す。ログに入力値は入ってきてるので、
+    送信ボタンの押下で星の数と入力値が返るようにする。 -->

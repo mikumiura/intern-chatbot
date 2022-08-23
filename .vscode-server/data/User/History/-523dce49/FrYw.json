@@ -1,0 +1,6 @@
+{
+    "editor.fontLigatures": false,
+    "terminal.integrated.scrollback": 10000,
+    "python.defaultInterpreterPath": "/Users/miura.m/.pyenv/versions/3.10.4/bin/python",
+    "window.zoomLevel": 1
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>評価ありがとうございました</title>
+
+    <!-- <link rel="stylesheet" href="static/style.css" type="text/css"> -->
+</head>
+
+<body style="text-align:center">
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <div>
+        <p>チャットボットの評価ありがとうございました😄</p>
+    </div>
+
+    <div>
+        <p>平均星評価：<span>{{ avg_star_rate }}</span></p>
+    </div>
+
+    <div id="app">
+        <p>星評価ごとのコメントを表示</p>
+        <select v-model="item">
+            <option v-for="item in items">{{ item }}</option>
+        </select>
+    </div>
+    <!-- <div>
+        <div>ボットを高く評価してくれた方のコメントを紹介します</div>
+        <div>
+            <div>{{ comment1 }}</div>
+            <div>{{ comment2 }}</div>
+            <div>{{ comment3 }}</div>
+        </div>
+    </div> -->
+</body>
+
+</html>
+
+<script>
+    const Comment = {
+        data() {
+            return {
+                item: "",
+                items: [
+                    "★1",
+                    "★2",
+                    "★3",
+                    "★4",
+                    "★5"
+                ]
+            }
+        }
+    }
+    Vue.createApp(Comment).mount("#app")
+</script>

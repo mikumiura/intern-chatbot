@@ -1,0 +1,59 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:34329 (IPv4)
+Extension host agent listening on 34329
+
+[09:05:20] Extension host agent started.
+[09:05:21] [127.0.0.1][cde8e31f][ManagementConnection] New connection established.
+[09:05:21] [127.0.0.1][e12b7bd4][ExtensionHostConnection] New connection established.
+[09:05:21] [127.0.0.1][e12b7bd4][ExtensionHostConnection] <858407> Launched Extension Host Process.
+[09:05:29] Getting Manifest... ms-python.python
+[09:05:29] Getting Manifest... ms-python.vscode-pylance
+[09:05:29] Installing extension: ms-python.vscode-pylance
+[09:05:29] Installing extension: ms-python.python
+[09:05:32] Downloaded extension: ms-python.python /home/miura/.vscode-server/data/CachedExtensionVSIXs/ms-python.python-2022.12.0
+[09:05:34] Downloaded extension: ms-python.vscode-pylance /home/miura/.vscode-server/data/CachedExtensionVSIXs/ms-python.vscode-pylance-2022.8.10
+[09:05:36] Extracted extension to /home/miura/.vscode-server/extensions/.361be2b1-f371-4409-afda-845b3624a91d: ms-python.python
+[09:05:36] Renamed to /home/miura/.vscode-server/extensions/ms-python.python-2022.12.0
+[09:05:36] Extracting completed. ms-python.python
+[09:05:36] Extension installed successfully: ms-python.python
+[09:05:38] Extracted extension to /home/miura/.vscode-server/extensions/.4413c4d0-cc3d-43e7-b7a4-4f5ae185f149: ms-python.vscode-pylance
+[09:05:38] Renamed to /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.10
+[09:05:38] Extracting completed. ms-python.vscode-pylance
+[09:05:38] Extension installed successfully: ms-python.vscode-pylance
+[12:08:28] [127.0.0.1][e12b7bd4][ExtensionHostConnection] The client has reconnected.
+[12:56:46] [127.0.0.1][ba0b394e][ManagementConnection] New connection established.
+[12:56:46] [127.0.0.1][d69a615f][ExtensionHostConnection] New connection established.
+[12:56:46] [127.0.0.1][d69a615f][ExtensionHostConnection] <1149918> Launched Extension Host Process.
+[12:56:46] [127.0.0.1][cde8e31f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[12:56:46] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[12:56:55] [127.0.0.1][d69a615f][ExtensionHostConnection] <1149918> Extension Host Process exited with code: 0, signal: null.
+[12:57:00] [127.0.0.1][cde8e31f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[12:57:00] [127.0.0.1][19d6ffbf][ManagementConnection] New connection established.
+[12:57:00] [127.0.0.1][85071fd4][ExtensionHostConnection] New connection established.
+[12:57:00] [127.0.0.1][85071fd4][ExtensionHostConnection] <1150221> Launched Extension Host Process.
+[12:57:01] [127.0.0.1][ba0b394e][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[12:57:01] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/3b889b090b5ad5793f524b5d1d39fda662b96a2a/out/vs/server/node/server.main.js:145:7933)
+    at process.emit (node:events:390:28)
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 10235 chars and 1 size events
+[13:01:46] [127.0.0.1][e12b7bd4][ExtensionHostConnection] <858407> Extension Host Process exited with code: 0, signal: null.
+[13:02:00] [127.0.0.1][cde8e31f][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[13:55:52] [127.0.0.1][ba0b394e][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[13:55:52] [127.0.0.1][85071fd4][ExtensionHostConnection] The client has reconnected.
+[13:57:13] [127.0.0.1][19d6ffbf][ManagementConnection] The client has reconnected.
+[13:57:13] [127.0.0.1][85071fd4][ExtensionHostConnection] The client has reconnected.
+[14:00:52] [127.0.0.1][ba0b394e][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[18:21:00] [127.0.0.1][85071fd4][ExtensionHostConnection] <1150221> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[18:21:00] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[18:26:00] Last EH closed, shutting down

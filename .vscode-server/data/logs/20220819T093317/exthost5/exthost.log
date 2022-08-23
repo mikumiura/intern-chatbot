@@ -1,0 +1,33 @@
+[2022-08-19 17:44:18.265] [exthost] [info] Extension host with pid 2073362 started
+[2022-08-19 17:44:18.274] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Lock acquired.
+[2022-08-19 17:44:18.492] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-19 17:44:18.552] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-19 17:44:18.555] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-19 17:44:18.559] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-19 17:44:19.893] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-19 17:44:19.957] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-19 17:44:21.296] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 17:44:21.311] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 17:44:21.315] [exthost] [info] Eager extensions activated
+[2022-08-19 18:01:26.298] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-19 18:01:26.615] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-19 18:01:27.626] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-08-19 18:01:27.860] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-19 18:01:28.541] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 18:01:28.547] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 18:01:28.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-19 18:03:30.522] [exthost] [error] [ms-python.python] provider FAILED
+[2022-08-19 18:03:30.522] [exthost] [error] Error: name must not be falsy
+	at Function.validate (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131745)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:131694)
+	at new t (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:78:117222)
+	at G (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2297898)
+	at c (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335083)
+	at Object.t.map (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2335169)
+	at Object.asDocumentSymbols (/home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2305716)
+	at /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/out/client/extension.js:2:2244261
+	at async a.provideDocumentSymbols (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:37442)
+[2022-08-19 18:04:27.239] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-08-19 18:55:21.886] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-19 18:55:21.887] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-19 18:55:21.926] [exthost] [info] Extension host with pid 2073362 exiting with code 0

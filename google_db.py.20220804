@@ -1,0 +1,110 @@
+from dotenv import load_dotenv
+import os, pymysql.cursors
+from logging import getLogger, FileHandler, DEBUG, Formatter
+
+# ログの設定
+logger = getLogger(__name__)
+logger.setLevel(DEBUG)
+handler = FileHandler(filename='/var/log/miura/flask.log')
+handler.setLevel(DEBUG)
+handler.setFormatter(Formatter("%(asctime)s: %(levelname)s: %(pathname)s: line %(lineno)s: %(message)s"))
+logger.addHandler(handler)
+
+# .envの読み込み
+load_dotenv()
+
+class DataBase:
+    def __enter__(self):
+        self.conn = pymysql.connect(
+            host = os.environ["HOST"],
+            port = int(os.environ["PORT"]),
+            user = "root",
+            password = os.environ["PWD"],
+            db = os.environ["DB"],
+            charset = "utf8mb4",
+            cursorclass = pymysql.cursors.DictCursor
+        )
+        return self # ここでクラスを返さないとindex.pyでメソッド使用不可（デフォでdbに入るのはオブジェクトではなくここで返す値！！）
+
+    def __exit__(self, exc_type, exc_value, traceback):
+        self.conn.close()
+
+    # DBの履歴に検索ワードがあるか問い合わせ
+    def select_word(self, user_id):
+        word = None
+        try:
+            with self.conn.cursor() as cursor:
+                sql_select_word = "select word from `word` where uid = %s"
+                cursor.execute(sql_select_word, user_id)
+                word = cursor.fetchall() # uidに紐づくwordの一覧をリストで返す
+        except:
+            logger.exception("exception happened.")
+        return word
+
+    # (履歴があった場合)idを取り出す処理
+    def select_id(self, user_id, input_text):
+        id = None
+        try:
+            with self.conn.cursor() as cursor:
+                sql_select_urls = "select id from `word` where uid = %s and word = %s"
+                cursor.execute(sql_select_urls, (user_id, input_text))
+                id = cursor.fetchone()
+        except:
+            logger.exception("exception happened.")
+        return id
+
+    # (履歴があった場合)内部結合してurlのリストを取り出す処理😢
+    def select_url(self, id):
+        url = None
+        try:
+            with self.conn.cursor() as cursor:
+                sql_select_urls = "select `url`.url from `word` inner join `url` on `word`.id = `url`.word_id where `word`.id = %s"
+                cursor.execute(sql_select_urls, id)
+                url = cursor.fetchall()
+        except:
+            logger.exception("exception happened.")
+        return url
+
+    # uid,input_textをwordテーブルにインサートし、idを返す
+    def insert_word(self, user_id, input_text):
+        last_row_id = None # (exceptを考えて)last_row_idを初期化
+        try:
+            with self.conn.cursor() as cursor:
+                sql_insert_word = "insert into `word` (uid, word) values (%s, %s)"
+                cursor.execute(sql_insert_word, (user_id, input_text))
+                last_row_id = cursor.lastrowid
+            self.conn.commit()
+        except:
+            logger.exception("exception happened.")
+        return last_row_id
+
+    # urlをurlテーブルにインサートする
+    def insert_url(self, bulkinsert):
+        try:
+            with self.conn.cursor() as cursor:
+                sql_insert_url = "insert into `url` (word_id, url) values (%s, %s)"
+                cursor.executemany(sql_insert_url, bulkinsert) # bulk insert
+            self.conn.commit()
+        except:
+            logger.exception("exception happened.")
+
+    # def insert(self, user_id, input_text):
+    #     try:
+    #         with self.conn.cursor() as cursor:
+    #             sql_insert = "insert into `tweets` (uid, word) values (%s, %s) "
+    #             cursor.execute(sql_insert, (user_id, input_text))
+    #         # must commit to save changes because connection isn't autocommit by default.
+    #         self.conn.commit()
+    #     except:
+    #         logger.exception("exception happened.")
+
+    # # uidを識別し、ユーザごとに最新の入力履歴を1件取得
+    # def select(self, user_id, input_text) -> str:
+    #     try:
+    #         with self.conn.cursor() as cursor:
+    #             sql_select = "select count(word) from tweets where uid = %s and word = %s" #  order by id desc limit 1
+    #             cursor.execute(sql_select, (user_id, input_text))
+    #             for word in cursor:
+    #                 return word
+    #     except:
+    #         logger.exception("exception happened.")

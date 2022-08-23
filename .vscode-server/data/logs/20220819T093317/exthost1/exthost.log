@@ -1,0 +1,81 @@
+[2022-08-19 09:33:21.976] [exthost] [info] Extension host with pid 1719939 started
+[2022-08-19 09:33:21.986] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Lock acquired.
+[2022-08-19 09:33:23.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-08-19 09:33:23.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-19 09:33:23.357] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-19 09:33:23.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-19 09:33:24.774] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-19 09:33:24.849] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-19 09:33:25.166] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 09:33:25.182] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-19 09:33:25.186] [exthost] [info] Eager extensions activated
+[2022-08-19 09:33:28.446] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-19 10:37:00.892] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-19 10:37:00.892] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'find')
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/emmet/dist/node/emmetNodeMain.js:1:187296)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/emmet/dist/node/emmetNodeMain.js:1:185653)
+	at te.provideCompletionItems (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:51894)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:77036
+	at Z._withAdapter (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:67207)
+	at Z.$provideCompletionItems (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:77011)
+	at o._doInvokeHandler (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:13691)
+	at o._invokeHandler (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:13373)
+	at o._receiveRequest (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:12092)
+	at o._receiveOneMessage (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:10845)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:8952
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:111:17079
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p._processReadQueue (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:33785)
+[2022-08-19 10:37:02.410] [exthost] [error] [vscode.emmet] provider FAILED
+[2022-08-19 10:37:02.410] [exthost] [error] TypeError: Cannot read properties of undefined (reading 'find')
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/emmet/dist/node/emmetNodeMain.js:1:187296)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/extensions/emmet/dist/node/emmetNodeMain.js:1:185653)
+	at te.provideCompletionItems (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:51894)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:77036
+	at Z._withAdapter (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:67207)
+	at Z.$provideCompletionItems (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:87:77011)
+	at o._doInvokeHandler (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:13691)
+	at o._invokeHandler (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:13373)
+	at o._receiveRequest (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:12092)
+	at o._receiveOneMessage (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:10845)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:95:8952
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:111:17079
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at c.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:19006)
+	at i._receiveMessage (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:23593)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:21127
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p.acceptChunk (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:15837)
+	at /home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:14967
+	at b.invoke (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:145)
+	at w.deliver (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:2266)
+	at p.fire (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:61:1844)
+	at p._processReadQueue (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/workbench/api/node/extensionHostProcess.js:69:33785)
+[2022-08-19 11:24:03.043] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2022-08-19 11:24:03.044] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-19 11:24:03.061] [exthost] [info] Extension host with pid 1719939 exiting with code 0

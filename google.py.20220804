@@ -1,0 +1,69 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+import chromedriver_binary
+from logging import getLogger, FileHandler, DEBUG, Formatter
+
+# ログの設定
+logger = getLogger(__name__)
+logger.setLevel(DEBUG)
+handler = FileHandler(filename='/var/log/miura/flask.log')
+handler.setLevel(DEBUG)
+handler.setFormatter(Formatter("%(asctime)s: %(levelname)s: %(pathname)s: line %(lineno)s: %(message)s"))
+logger.addHandler(handler)
+
+options = Options()
+options.add_argument("--headless")
+
+class Google:
+    def search(self, input_text):
+        self.driver = webdriver.Chrome(options=options)
+        self.driver.get("https://www.google.com/")
+        # assert "Google" in driver.title # タイトルにGoogleという単語が含まれているかを確認するアサーション
+        self.elem = self.driver.find_element(By.NAME, "q")
+        self.elem.clear()
+        self.elem.send_keys(input_text) # ここユーザから受け取る
+        self.elem.send_keys(Keys.RETURN)
+    
+    def get_url(self):
+        count = 0
+        url = []
+        for e in self.driver.find_elements(By.XPATH, "//a/h3"):
+            self.elem_a = e.find_element(By.XPATH, "..") # aタグに格納されているurlを取得
+            self.elem_url = self.elem_a.get_attribute("href")
+            count += 1
+            if count > 5:
+                break
+            url.append(self.elem_url)
+        return url
+        # return self.elem_url.get_attribute("href")
+        # assert "No results found." not in driver.page_source
+        # self.driver.close()
+
+    def session_close(self):
+        self.driver.close()
+
+# g = Google()
+# g.search()
+# g.get_url()
+
+# driver = webdriver.Chrome()
+# driver.get("https://www.google.com/")
+# # assert "Google" in driver.title # タイトルにGoogleという単語が含まれているかを確認するアサーション
+# elem = driver.find_element(By.NAME, "q")
+# elem.clear()
+# elem.send_keys("pycon") # ここユーザから受け取る
+# elem.send_keys(Keys.RETURN)
+
+# count = 0
+# for e in driver.find_elements(By.XPATH, "//a/h3"):
+#     elem_a = e.find_element(By.XPATH, "..") # aタグに格納されているurlを取得
+#     count += 1
+#     if count > 5:
+#         break
+    
+#     print(elem_a.get_attribute("href"))
+
+# # assert "No results found." not in driver.page_source
+# driver.close()

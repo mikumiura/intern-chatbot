@@ -1,0 +1,74 @@
+[2022-08-15 11:40:37.462] [remoteagent] [info] Extension host agent started.
+[2022-08-15 11:40:37.784] [remoteagent] [info] Deleted from disk ms-toolsai.jupyter /home/miura/.vscode-server/extensions/ms-toolsai.jupyter-2022.7.1002181843
+[2022-08-15 11:40:37.794] [remoteagent] [info] Deleted from disk ms-python.vscode-pylance /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.10
+[2022-08-15 11:40:37.853] [remoteagent] [info] [127.0.0.1][af041dc0][ExtensionHostConnection] New connection established.
+[2022-08-15 11:40:37.854] [remoteagent] [info] [127.0.0.1][d5804bda][ManagementConnection] New connection established.
+[2022-08-15 11:40:37.881] [remoteagent] [info] [127.0.0.1][af041dc0][ExtensionHostConnection] <1391> Launched Extension Host Process.
+[2022-08-15 13:03:02.606] [remoteagent] [info] [127.0.0.1][0c60772a][ManagementConnection] New connection established.
+[2022-08-15 13:03:02.700] [remoteagent] [info] [127.0.0.1][a4ebe2ca][ExtensionHostConnection] New connection established.
+[2022-08-15 13:03:02.708] [remoteagent] [info] [127.0.0.1][a4ebe2ca][ExtensionHostConnection] <2699> Launched Extension Host Process.
+[2022-08-15 13:03:03.023] [remoteagent] [info] [127.0.0.1][d5804bda][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-15 13:03:03.025] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2022-08-15 13:08:02.751] [remoteagent] [info] [127.0.0.1][af041dc0][ExtensionHostConnection] <1391> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 14:02:28.092] [remoteagent] [info] [127.0.0.1][d5804bda][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-15 14:02:28.093] [remoteagent] [info] [127.0.0.1][a4ebe2ca][ExtensionHostConnection] The client has reconnected.
+[2022-08-15 14:05:29.439] [remoteagent] [info] [127.0.0.1][39352a7f][ManagementConnection] New connection established.
+[2022-08-15 14:05:29.551] [remoteagent] [info] [127.0.0.1][79ac7284][ExtensionHostConnection] New connection established.
+[2022-08-15 14:05:29.563] [remoteagent] [info] [127.0.0.1][79ac7284][ExtensionHostConnection] <3083> Launched Extension Host Process.
+[2022-08-15 14:05:31.144] [remoteagent] [info] [127.0.0.1][0c60772a][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-15 14:05:31.145] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2022-08-15 14:07:28.240] [remoteagent] [info] [127.0.0.1][d5804bda][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-08-15 14:10:29.626] [remoteagent] [info] [127.0.0.1][a4ebe2ca][ExtensionHostConnection] <2699> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 14:12:15.218] [remoteagent] [info] [127.0.0.1][0c60772a][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-15 14:12:15.218] [remoteagent] [info] [127.0.0.1][79ac7284][ExtensionHostConnection] The client has reconnected.
+[2022-08-15 14:17:10.402] [remoteagent] [info] [127.0.0.1][3ea83327][ManagementConnection] New connection established.
+[2022-08-15 14:17:10.475] [remoteagent] [info] [127.0.0.1][3c54c81b][ExtensionHostConnection] New connection established.
+[2022-08-15 14:17:10.486] [remoteagent] [info] [127.0.0.1][3c54c81b][ExtensionHostConnection] <3290> Launched Extension Host Process.
+[2022-08-15 14:17:12.443] [remoteagent] [info] [127.0.0.1][39352a7f][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-15 14:17:12.443] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2022-08-15 14:17:15.414] [remoteagent] [info] [127.0.0.1][0c60772a][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-08-15 14:22:10.572] [remoteagent] [info] [127.0.0.1][79ac7284][ExtensionHostConnection] <3083> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 15:01:41.371] [remoteagent] [info] [127.0.0.1][39352a7f][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-15 15:01:41.372] [remoteagent] [info] [127.0.0.1][bc3bf3ed][ManagementConnection] New connection established.
+[2022-08-15 15:01:41.410] [remoteagent] [info] [127.0.0.1][819d34e5][ExtensionHostConnection] New connection established.
+[2022-08-15 15:01:41.416] [remoteagent] [info] [127.0.0.1][819d34e5][ExtensionHostConnection] <4469> Launched Extension Host Process.
+[2022-08-15 15:01:43.328] [remoteagent] [info] [127.0.0.1][3ea83327][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-15 15:01:43.332] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2022-08-15 15:06:41.484] [remoteagent] [info] [127.0.0.1][39352a7f][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-08-15 15:06:41.643] [remoteagent] [info] [127.0.0.1][3c54c81b][ExtensionHostConnection] <3290> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 15:13:46.576] [remoteagent] [info] [127.0.0.1][3ea83327][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-15 15:13:46.577] [remoteagent] [info] [127.0.0.1][819d34e5][ExtensionHostConnection] The client has reconnected.
+[2022-08-15 15:18:46.683] [remoteagent] [info] [127.0.0.1][3ea83327][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-08-15 15:55:23.524] [remoteagent] [info] [127.0.0.1][a8dc8941][ManagementConnection] New connection established.
+[2022-08-15 15:55:23.576] [remoteagent] [info] [127.0.0.1][6ea25366][ExtensionHostConnection] New connection established.
+[2022-08-15 15:55:23.583] [remoteagent] [info] [127.0.0.1][6ea25366][ExtensionHostConnection] <5293> Launched Extension Host Process.
+[2022-08-15 15:55:25.584] [remoteagent] [info] [127.0.0.1][bc3bf3ed][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-15 15:55:25.586] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2022-08-15 16:00:23.798] [remoteagent] [info] [127.0.0.1][819d34e5][ExtensionHostConnection] <4469> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 16:01:55.777] [remoteagent] [info] [127.0.0.1][bc3bf3ed][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-15 16:01:55.777] [remoteagent] [info] [127.0.0.1][6ea25366][ExtensionHostConnection] The client has reconnected.
+[2022-08-15 16:06:56.071] [remoteagent] [info] [127.0.0.1][bc3bf3ed][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-08-15 17:31:11.329] [remoteagent] [info] [127.0.0.1][26598090][ManagementConnection] New connection established.
+[2022-08-15 17:31:11.668] [remoteagent] [info] [127.0.0.1][65ac15d8][ExtensionHostConnection] New connection established.
+[2022-08-15 17:31:11.674] [remoteagent] [info] [127.0.0.1][65ac15d8][ExtensionHostConnection] <6410> Launched Extension Host Process.
+[2022-08-15 17:31:13.380] [remoteagent] [info] [127.0.0.1][a8dc8941][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2022-08-15 17:31:13.382] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/miura/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:390:28)
+[2022-08-15 17:36:11.427] [remoteagent] [info] [127.0.0.1][6ea25366][ExtensionHostConnection] <5293> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 18:00:15.299] [remoteagent] [info] [127.0.0.1][a8dc8941][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-15 18:00:15.300] [remoteagent] [info] [127.0.0.1][65ac15d8][ExtensionHostConnection] The client has reconnected.
+[2022-08-15 18:05:15.423] [remoteagent] [info] [127.0.0.1][a8dc8941][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2022-08-15 21:00:28.992] [remoteagent] [info] [127.0.0.1][65ac15d8][ExtensionHostConnection] <6410> Extension Host Process exited with code: 0, signal: null.
+[2022-08-15 21:00:28.992] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-08-15 21:05:28.993] [remoteagent] [info] Last EH closed, shutting down
