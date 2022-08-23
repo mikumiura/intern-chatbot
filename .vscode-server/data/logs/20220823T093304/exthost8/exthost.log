@@ -17,3 +17,7 @@
 [2022-08-23 15:27:24.917] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 [2022-08-23 15:37:35.932] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 [2022-08-23 15:37:38.329] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+[2022-08-23 16:27:56.329] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-23 16:30:27.557] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-23 16:30:27.557] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-23 16:30:27.593] [exthost] [info] Extension host with pid 1923317 exiting with code 0

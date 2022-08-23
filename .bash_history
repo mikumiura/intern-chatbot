@@ -282,3 +282,35 @@ mv index2.html next-page.html
 cd -
 google-chrome --version 
 sudo su -
+python3 index.py 
+sudo su -
+python3 index.py 
+sudo su -
+python3 index.py 
+sudo su -
+cd /home/miura
+cd ../
+cd miura
+git init
+git add.
+git add .
+git commit -m "first commit"
+git config --global user.name miura.m
+git config --list
+git commit -m "first commit"
+git remote add origin https://github.com/mikumiura/intern-chatbot.git
+git push origin master
+git diff
+git pull origin master
+git diff
+sudo su -
+git diff
+git checkout -b "feature/return-comment-list"
+git branch -a
+git diff
+git checkout
+git branch -a
+git branch
+git checkout master
+git branch
+git diff
