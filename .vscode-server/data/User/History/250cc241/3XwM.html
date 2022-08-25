@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>チャットボット満足度アンケート</title>
+
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+</head>
+
+
+<body> <!-- style="text-align:center" -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <div id = "app">
+        <div>
+            <label>Q1：総合評価を教えてください</label>
+            <div>
+                <div v-bind:class="{'star-gold':stars[0], 'star-gray':!stars[0]}" v-on:click="star(1)" class="pointer size-30">★</div>
+                <div v-bind:class="{'star-gold':stars[1], 'star-gray':!stars[1]}" v-on:click="star(2)" class="pointer size-30">★</div>
+                <div v-bind:class="{'star-gold':stars[2], 'star-gray':!stars[2]}" v-on:click="star(3)" class="pointer size-30">★</div>
+                <div v-bind:class="{'star-gold':stars[3], 'star-gray':!stars[3]}" v-on:click="star(4)" class="pointer size-30">★</div>
+                <div v-bind:class="{'star-gold':stars[4], 'star-gray':!stars[4]}" v-on:click="star(5)" class="pointer size-30">★</div>
+            </div>
+        </div>
+
+        <div>
+            <label>Q2：自由に感想を記入してください</label>
+            <div>
+                <textarea v-model="comment" cols="50" rows="4"></textarea> <!-- v-on:hogehoge（入力に関する処理の感知）でisActive()をtrueに -->
+            </div>
+        </div>
+        
+        <div>
+            <input v-bind:disabled="comment==''" v-on:click="submit()" type="submit" value="送信" class="pointer size-30">
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script>
+    let stars = [false, false, false, false, false];
+
+    const Star = {
+        data() {
+            return {
+                stars,
+                rate: 0,
+                comment: ""
+            }
+        },
+        methods: {
+            star: function(num) {
+                this.rate = num
+                // 1~num番目までをtrueに置き換える処理
+                for (let i=0; i<num; i++) {
+                    this.stars.splice(i, 1, true)
+                }
+                // num+1~5番目までをfalseに置き換える処理
+                for (let i=num; i<5; i++) {
+                    this.stars.splice(i, 1, false)
+                }
+            },
+            submit: function() {
+                alert("送信完了")
+
+                axios.post('/test1', {
+                    rate: this.rate,
+                    comment: this.comment
+                })
+                .then(function(response) {
+                    console.log(response)
+                })
+                .catch(function(error) {
+                    console.log(error)
+                })
+
+                window.open('/test2', null)
+            }
+        }
+    }
+    Vue.createApp(Star).mount("#app")
+</script>

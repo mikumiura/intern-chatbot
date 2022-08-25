@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>評価ありがとうございました</title>
+
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+</head>
+
+<!--  style="text-align:center" -->
+
+<body>
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <div class="bottom-25">
+        <p class="bgc">平均星評価</p>
+        <p><span class="star-gold">★</span>{{ average_rate }}</p>
+    </div>
+
+    <div id="app">
+        <p class="bgc">寄せられたコメント</p>
+        <select v-model="item" class="size-15">
+            <option v-for="item in items">[[ item ]]</option>
+        </select>
+        <p v-if="item=='★0'">
+            {{ zero_stars[0] }}<br>
+            {{ zero_stars[1] }}<br>
+            {{ zero_stars[2] }}
+        </p>
+        <p v-else-if="item=='★1'">
+            {{ one_star[0] }}<br>
+            {{ one_star[1] }}<br>
+            {{ one_star[2] }}
+        </p>
+        <p v-else-if="item=='★2'">
+            {{ two_stars[0] }}<br>
+            {{ two_stars[1] }}<br>
+            {{ two_stars[2] }}
+        </p>
+        <p v-else-if="item=='★3'">
+            {{ three_stars[0] }}<br>
+            {{ three_stars[1] }}<br>
+            {{ three_stars[2] }}
+        </p>
+        <p v-else-if="item=='★4'">
+            {{ four_stars[0] }}<br>
+            {{ four_stars[1] }}<br>
+            {{ four_stars[2] }}
+        </p>
+        <p v-else-if="item=='★5'">
+            {{ five_stars[0] }}<br>
+            {{ five_stars[1] }}<br>
+            {{ five_stars[2] }}
+        </p>
+    </div>
+</body>
+
+</html>
+
+<script>
+    const Display = {
+        delimiters: ['[[', ']]'],
+        data() {
+            return {
+                item: "",
+                items: [
+                    "★0",
+                    "★1",
+                    "★2",
+                    "★3",
+                    "★4",
+                    "★5"
+                ]
+            }
+        }
+    }
+    Vue.createApp(Display).mount("#app")
+</script>

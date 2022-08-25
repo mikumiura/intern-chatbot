@@ -314,3 +314,35 @@ git branch
 git checkout master
 git branch
 git diff
+sudo su -
+ls
+cd .git/
+ls
+exit
+git init
+ls
+cd .git/
+cd ../
+git add .
+git commit -m "first commit"
+git config --global user.name "miura.m"
+git config --list
+git remote add origin https://github.com/mikumiura/intern-chatbot.git
+git push -u origin master
+git checkout -b "feature/return-comment-list"
+git branch -a
+git checkout "feature/return-comment-list"
+git branch
+git status
+git add .
+git status
+git diff
+git commit -m "test-commit"
+git branch
+git push origin feature/return-comment-list
+sudo su -
+git checkout -b "feature/shape-list"
+git branch -a
+git diff
+git branch -a
+sudo su -
