@@ -1,0 +1,31 @@
+[2022-08-25 18:20:49.880] [exthost] [info] Extension host with pid 4180385 started
+[2022-08-25 18:20:49.891] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Lock acquired.
+[2022-08-25 18:20:50.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+[2022-08-25 18:20:50.383] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-25 18:20:50.386] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-25 18:20:50.390] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-25 18:20:51.268] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-25 18:20:51.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-25 18:20:51.530] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-25 18:20:51.545] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-25 18:20:51.549] [exthost] [info] Eager extensions activated
+[2022-08-25 18:20:51.780] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4588
+[2022-08-25 18:20:53.004] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4588
+[2022-08-25 18:20:55.619] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-25 18:21:19.122] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4592
+[2022-08-25 18:21:21.072] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-25 18:21:21.366] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-25 18:21:22.756] [exthost] [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+[2022-08-25 18:21:23.323] [exthost] [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+[2022-08-25 18:21:23.975] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-25 18:21:23.981] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-25 18:21:24.039] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2022-08-25 18:21:25.730] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4599
+[2022-08-25 18:21:32.879] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4598
+[2022-08-25 18:22:17.368] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4599
+[2022-08-25 18:22:26.920] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4600
+[2022-08-25 18:22:41.366] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4600
+[2022-08-25 18:22:59.786] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 4600
+[2022-08-25 18:37:07.329] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-25 18:37:07.330] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-25 18:37:07.368] [exthost] [info] Extension host with pid 4180385 exiting with code 0

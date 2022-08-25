@@ -1,0 +1,43 @@
+div div div div {
+    display: inline-block;
+}
+
+.star-gold {
+    color: #ffd700;
+}
+
+.star-orange {
+    color: #ffa500;
+}
+
+.star-gray {
+    color: #d2d2d2;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.bottom-15em {
+    margin-bottom: 1.5em; 
+}
+
+.bgc {
+    background-color: #dcdcdc;
+}
+
+.box {
+    width: fit-content;
+    border: 3px;
+    padding: 15px;
+    background-color: #d6ecff;
+    border-radius: 10px;
+}

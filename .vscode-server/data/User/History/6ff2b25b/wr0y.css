@@ -1,0 +1,87 @@
+div div div div {
+    display: inline-block;
+}
+
+.star-gold {
+    color: #ffd700;
+}
+
+.star-orange {
+    color: #ffa500;
+}
+
+.star-gray {
+    color: #d2d2d2;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.bottom-05em {
+    margin-bottom: 0.5em;
+}
+
+.bottom-15em {
+    margin-bottom: 1.5em; 
+}
+
+.bgc {
+    background-color: #dcdcdc;
+}
+
+.box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box8 {
+    display: flex;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+.box8 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.box9 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #ff7d6e;
+    background: #ffebe9;
+    border-top: solid 10px #ff7d6e;
+}
+.box9 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/* .box {
+    display: flex;
+    width: fit-content;
+    border: 3px;
+    background-color: #d6ecff;
+    border-radius: 10px;
+    padding: 5px;
+} */
