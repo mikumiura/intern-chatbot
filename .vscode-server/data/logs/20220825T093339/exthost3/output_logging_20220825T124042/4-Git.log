@@ -1,0 +1,22 @@
+[2022-08-25T03:40:44.078Z] ログ レベル: Info
+[2022-08-25T03:40:44.084Z] [info] Git の検証が検出されました: git
+[2022-08-25T03:40:44.117Z] [info] git から Git 2.34.1 を使用しています
+[2022-08-25T03:40:44.166Z] > git rev-parse --show-toplevel [33ms]
+[2022-08-25T03:40:44.181Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-08-25T03:40:44.187Z] [info] Open repository: /home/miura
+[2022-08-25T03:40:44.292Z] > git status -z -uall [94ms]
+[2022-08-25T03:40:44.304Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-25T03:40:44.315Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/get-name refs/remotes/feature/get-name [2ms]
+[2022-08-25T03:40:44.337Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+[2022-08-25T03:40:44.338Z] > git remote --verbose [7ms]
+[2022-08-25T03:40:44.427Z] > git config --get commit.template [2ms]
+[2022-08-25T03:40:45.769Z] > git status -z -uall [1331ms]
+[2022-08-25T03:40:45.776Z] > git check-ignore -v -z --stdin [31ms]
+[2022-08-25T03:40:45.778Z] > git symbolic-ref --short HEAD [2ms]
+[2022-08-25T03:40:45.785Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/get-name refs/remotes/feature/get-name [1ms]
+[2022-08-25T03:40:45.799Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-08-25T03:40:45.801Z] > git remote --verbose [4ms]
+[2022-08-25T03:40:45.863Z] > git config --get commit.template [2ms]
+[2022-08-25T03:40:47.757Z] > git show --textconv :index.py [13ms]
+[2022-08-25T03:40:47.758Z] > git ls-files --stage -- /home/miura/index.py [7ms]
+[2022-08-25T03:40:47.767Z] > git cat-file -s 1eaa08385698ece55818cc11b267b5f7afc257ec [2ms]

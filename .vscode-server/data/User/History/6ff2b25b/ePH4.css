@@ -1,0 +1,57 @@
+div div div div {
+    display: inline-block;
+}
+
+.star-gold {
+    color: #ffd700;
+}
+
+.star-orange {
+    color: #ffa500;
+}
+
+.star-gray {
+    color: #d2d2d2;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.bottom-05em {
+    margin-bottom: 0.5em;
+}
+
+.bottom-15em {
+    margin-bottom: 1.5em; 
+}
+
+.bgc {
+    background-color: #dcdcdc;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border: 3px;
+    padding: 5px;
+    background-color: #d6ecff;
+    border-radius: 10px;
+}
+
+.flex-item {
+    border: 3px;
+    width: 80%;
+    padding: 5px;
+    background-color: #F3F9FF;
+    border-radius: 10px;
+}

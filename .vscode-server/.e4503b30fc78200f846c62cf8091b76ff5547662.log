@@ -5,13 +5,14 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:37793 (IPv4)
-Extension host agent listening on 37793
+Server bound to 127.0.0.1:40123 (IPv4)
+Extension host agent listening on 40123
 
-[09:33:39] Extension host agent started.
-[09:33:39] [127.0.0.1][42c00b4c][ManagementConnection] New connection established.
-[09:33:39] [127.0.0.1][8ce36c84][ExtensionHostConnection] New connection established.
-[09:33:39] [127.0.0.1][8ce36c84][ExtensionHostConnection] <3764779> Launched Extension Host Process.
+[08:54:08] Extension host agent started.
+[08:54:08] Deleted from disk ms-python.vscode-pylance /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.30
+[08:54:09] [127.0.0.1][b8ce615e][ManagementConnection] New connection established.
+[08:54:09] [127.0.0.1][bc0d9532][ExtensionHostConnection] New connection established.
+[08:54:09] [127.0.0.1][bc0d9532][ExtensionHostConnection] <609804> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +

@@ -346,3 +346,22 @@ git branch -a
 git diff
 git branch -a
 sudo su -
+git branch
+git diff
+git status
+git add .
+git status
+git commit
+git commit -m "20220824 commit"
+git branch
+history
+git push origin feature/shape-list
+git branch
+git fetch origin master
+git checkout -b feature/get-name
+git fetch origin master
+git diff
+git merge origin/master
+sudo su -
+python3 index.py
+sudo su -

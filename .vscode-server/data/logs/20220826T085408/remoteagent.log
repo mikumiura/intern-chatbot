@@ -1,0 +1,5 @@
+[2022-08-26 08:54:08.676] [remoteagent] [info] Extension host agent started.
+[2022-08-26 08:54:08.938] [remoteagent] [info] Deleted from disk ms-python.vscode-pylance /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.30
+[2022-08-26 08:54:09.123] [remoteagent] [info] [127.0.0.1][b8ce615e][ManagementConnection] New connection established.
+[2022-08-26 08:54:09.133] [remoteagent] [info] [127.0.0.1][bc0d9532][ExtensionHostConnection] New connection established.
+[2022-08-26 08:54:09.141] [remoteagent] [info] [127.0.0.1][bc0d9532][ExtensionHostConnection] <609804> Launched Extension Host Process.

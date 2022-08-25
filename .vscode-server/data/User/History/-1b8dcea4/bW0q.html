@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>評価ありがとうございました</title>
+
+    <link rel="stylesheet" href="static/style.css" type="text/css">
+</head>
+
+
+<body>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <div class="bottom-15em">
+        <p class="bgc">平均星評価</p>
+        <p class="size-15"><span class="star-gold">★</span><span> </span>{{ average_rate }}</p>
+    </div>
+
+    <!-- v-on:change="postNums(item)" -->
+
+    <div id="app">
+        <p class="bgc">寄せられたコメント</p>
+        <div>
+            <select v-model="item" class="size-15 bottom-15em">
+                <option disabled value="initial">★の数を選択してください</option>
+                <option v-for="item in items">[[ item ]]</option>
+            </select>
+            <div v-if="item==0">
+                <div class="box bottom-05em">
+                    {{ zero_stars[0]["user_name"] }}：{{ zero_stars[0]["review_comment"] }}
+                </div>
+                <div class="box bottom-05em">
+                    {{ zero_stars[1]["user_name"] }}：{{ zero_stars[1]["review_comment"] }}
+                </div>
+                <div class="box bottom-05em">
+                    {{ zero_stars[2]["user_name"] }}：{{ zero_stars[2]["review_comment"] }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div>
+        レイアウト（コメント＋ユーザネーム）の変更
+        <div v-if="item==0">
+            <div class="box">
+                <ul>
+                    <li type="square">{{ zero_stars[0] }}</li>
+                    <li type="square">{{ zero_stars[1] }}</li>
+                    <li type="square">{{ zero_stars[2] }}</li>
+                </ul>
+            </div>
+        </div>
+        <div v-else-if="item==1">
+            <ul>
+                <li type="square">{{ one_star[0] }}</li>
+                <li type="square">{{ one_star[1] }}</li>
+                <li type="square">{{ one_star[2] }}</li>
+            </ul>
+        </div>
+        <div v-else-if="item==2">
+            <ul>
+                <li type="square">{{ two_stars[0] }}</li>
+                <li type="square">{{ two_stars[1] }}</li>
+                <li type="square">{{ two_stars[2] }}</li>
+            </ul>
+        </div>
+        <div v-else-if="item==3">
+            <ul>
+                <li type="square">{{ three_stars[0] }}</li>
+                <li type="square">{{ three_stars[1] }}</li>
+                <li type="square">{{ three_stars[2] }}</li>
+            </ul>
+        </div>
+        <div v-else-if="item==4">
+            <ul>
+                <li type="square">{{ four_stars[0] }}</li>
+                <li type="square">{{ four_stars[1] }}</li>
+                <li type="square">{{ four_stars[2] }}</li>
+            </ul>
+        </div>
+        <div v-else-if="item==5">
+            <ul>
+                <li type="square">{{ five_stars[0] }}</li>
+                <li type="square">{{ five_stars[1] }}</li>
+                <li type="square">{{ five_stars[2] }}</li>
+            </ul>
+        </div>
+    </div> -->
+</body>
+
+</html>
+
+<script>
+    const Display = {
+        delimiters: ['[[', ']]'],
+        data() {
+            return {
+                item: "initial",
+                items: [0, 1, 2, 3, 4, 5]
+            }
+        }
+    }
+    Vue.createApp(Display).mount("#app")
+</script>
