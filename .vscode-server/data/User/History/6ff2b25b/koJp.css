@@ -1,0 +1,23 @@
+div div div div {
+    display: inline-block;
+}
+
+.star-gold {
+    color: #ffd700;
+}
+
+.star-orange {
+    color: #ffa500;
+}
+
+.star-gray {
+    color: #d2d2d2;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+div {
+    line-height: 2;
+}

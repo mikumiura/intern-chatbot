@@ -1,0 +1,22 @@
+[2022-08-24T08:29:02.521Z] ログ レベル: Info
+[2022-08-24T08:29:02.527Z] [info] Git の検証が検出されました: git
+[2022-08-24T08:29:02.562Z] [info] git から Git 2.34.1 を使用しています
+[2022-08-24T08:29:02.603Z] > git rev-parse --show-toplevel [24ms]
+[2022-08-24T08:29:02.622Z] > git rev-parse --git-dir --git-common-dir [6ms]
+[2022-08-24T08:29:02.628Z] [info] Open repository: /home/miura
+[2022-08-24T08:29:02.708Z] > git status -z -uall [68ms]
+[2022-08-24T08:29:02.721Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-24T08:29:02.732Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/shape-list refs/remotes/feature/shape-list [1ms]
+[2022-08-24T08:29:02.750Z] > git remote --verbose [2ms]
+[2022-08-24T08:29:02.750Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-08-24T08:29:02.780Z] > git config --get commit.template [5ms]
+[2022-08-24T08:29:03.158Z] > git status -z -uall [368ms]
+[2022-08-24T08:29:03.179Z] > git symbolic-ref --short HEAD [8ms]
+[2022-08-24T08:29:03.191Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/shape-list refs/remotes/feature/shape-list [1ms]
+[2022-08-24T08:29:03.211Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2022-08-24T08:29:03.212Z] > git remote --verbose [2ms]
+[2022-08-24T08:29:03.233Z] > git config --get commit.template [3ms]
+[2022-08-24T08:29:03.572Z] > git check-ignore -v -z --stdin [248ms]
+[2022-08-24T08:29:03.630Z] > git show --textconv :database.py [12ms]
+[2022-08-24T08:29:03.634Z] > git ls-files --stage -- /home/miura/database.py [5ms]
+[2022-08-24T08:29:03.645Z] > git cat-file -s e3ba82f3486d1510e27589e6848be7e4dbad6b1b [1ms]

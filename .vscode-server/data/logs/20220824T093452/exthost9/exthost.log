@@ -1,0 +1,19 @@
+[2022-08-24 18:18:46.302] [exthost] [info] Extension host with pid 3111440 started
+[2022-08-24 18:18:46.305] [exthost] [error] Error: EEXIST: file already exists, open '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock'
+[2022-08-24 18:18:46.309] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-08-24 18:18:46.312] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0/vscode.lock': The lock does not look stale, elapsed: 717 ms, giving up.
+[2022-08-24 18:18:46.314] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0-1/vscode.lock': Lock acquired.
+[2022-08-24 18:18:46.753] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-08-24 18:18:46.814] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-24 18:18:46.817] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-24 18:18:46.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-24 18:18:48.050] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-24 18:18:48.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-24 18:18:48.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-24 18:18:48.547] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-24 18:18:48.551] [exthost] [info] Eager extensions activated
+[2022-08-24 18:18:48.721] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+[2022-08-24 18:18:49.012] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+[2022-08-24 18:25:03.116] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-24 18:25:03.116] [exthost] [info] Lock '/home/miura/.vscode-server/data/User/workspaceStorage/79b5f0cc56094051dcea441296b611d0-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-08-24 18:25:03.130] [exthost] [info] Extension host with pid 3111440 exiting with code 0
