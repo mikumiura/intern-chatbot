@@ -389,3 +389,15 @@ git push origin feature/locate-box
 git status
 git add .
 git commit
+python3 index.py
+git status
+git add .
+git commit -m "ignoreのコミット"
+git push origin feature/locate-box
+git add .
+git commit -m "ignoreのコミット2"
+git push origin feature/locate-box
+sudo su -
+exit
+sudo su -
+exit

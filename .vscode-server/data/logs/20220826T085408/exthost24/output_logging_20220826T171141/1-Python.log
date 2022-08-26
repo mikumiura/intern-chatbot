@@ -1,0 +1,11 @@
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> conda info --json
+Python インタープリター パス: /usr/bin/python3
+[ERROR 2022-7-26 17:11:45.291]: readdir() failed for "/home/intern3/.cache" (Error: EACCES: permission denied, scandir '/home/intern3/.cache')
+[ERROR 2022-7-26 17:11:45.291]: readdir() failed for "/home/intern3/.config" (Error: EACCES: permission denied, scandir '/home/intern3/.config')
+[ERROR 2022-7-26 17:11:45.315]: readdir() failed for "/home/intern3/.vscode-server/data" (Error: EACCES: permission denied, scandir '/home/intern3/.vscode-server/data')
+[ERROR 2022-7-26 17:11:45.315]: readdir() failed for "/home/intern3/.vscode-server/extensions" (Error: EACCES: permission denied, scandir '/home/intern3/.vscode-server/extensions')
+> /bin/python3 ~/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python3 ~/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+Pylance 言語サーバーを開始しています。
