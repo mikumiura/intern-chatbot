@@ -40,20 +40,20 @@ div div div div {
 
 .parent {
     width: 180px;
-    height: 60px;
+    height: 30px;
     margin: 5px;
-    border: 3px solid #CDE6FA;
+    border: 3px solid #FFEBED;
     border-radius: 10px;
-    background-color: #CDE6FA;
+    background-color: #FFEBED;
 
     position: relative;
 }
 
 .child {
     width: 180px;
-    height: 35px;
-    border-radius: 8px;
-    background-color: #F7FBFE;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #FFFCFC;
 
     position: absolute;
     bottom: 0px;

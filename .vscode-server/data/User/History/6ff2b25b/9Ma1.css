@@ -42,9 +42,9 @@ div div div div {
     width: 180px;
     height: 60px;
     margin: 5px;
-    border: 3px solid #CDE6FA;
+    border: 3px solid #FFEBED;
     border-radius: 10px;
-    background-color: #CDE6FA;
+    background-color: #FFEBED;
 
     position: relative;
 }
@@ -52,8 +52,8 @@ div div div div {
 .child {
     width: 180px;
     height: 35px;
-    border-radius: 8px;
-    background-color: #F7FBFE;
+    border-radius: 10px;
+    background-color: #FFFCFC;
 
     position: absolute;
     bottom: 0px;

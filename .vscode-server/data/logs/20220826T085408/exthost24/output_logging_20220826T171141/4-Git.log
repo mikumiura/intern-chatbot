@@ -1,0 +1,43 @@
+[2022-08-26T08:11:44.843Z] ログ レベル: Info
+[2022-08-26T08:11:44.848Z] [info] Git の検証が検出されました: git
+[2022-08-26T08:11:44.882Z] [info] git から Git 2.34.1 を使用しています
+[2022-08-26T08:11:44.927Z] > git rev-parse --show-toplevel [28ms]
+[2022-08-26T08:11:44.927Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:44.947Z] > git rev-parse --show-toplevel [6ms]
+[2022-08-26T08:11:44.947Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:44.975Z] > git rev-parse --show-toplevel [2ms]
+[2022-08-26T08:11:44.975Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:44.983Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-26T08:11:44.983Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:44.991Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-26T08:11:44.991Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:46.023Z] > git rev-parse --show-toplevel [3ms]
+[2022-08-26T08:11:46.023Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:46.041Z] > git rev-parse --show-toplevel [2ms]
+[2022-08-26T08:11:46.041Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
+[2022-08-26T08:11:46.067Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-26T08:11:46.067Z] fatal: detected dubious ownership in repository at '/home/intern3'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/intern3
