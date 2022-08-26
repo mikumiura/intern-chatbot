@@ -1,0 +1,74 @@
+div div div div {
+    display: inline-block;
+}
+
+.star-gold {
+    color: #ffd700;
+}
+
+.star-orange {
+    color: #ffa500;
+}
+
+.star-gray {
+    color: #d2d2d2;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.bottom-05em {
+    margin-bottom: 0.5em;
+}
+
+.bottom-15em {
+    margin-bottom: 1.5em; 
+}
+
+.bgc {
+    background-color: #dcdcdc;
+}
+
+.parent {
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+    /* padding: 5px; */
+    border: 3px solid #d6ecff;
+    border-radius: 10px;
+    background-color: #F9FCFF;
+
+    position: relative;
+}
+
+.child {
+    width: 180px;
+    height: 70px;
+    /* margin: 1px; */
+    /* padding: 3px; */
+    border: 3px solid #d6ecff;
+    border-radius: 10px;
+    background-color: #F9FCFF;
+
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+/* .box {
+    display: flex;
+    width: fit-content;
+    border: 3px;
+    background-color: #d6ecff;
+    border-radius: 10px;
+    padding: 5px;
+} */

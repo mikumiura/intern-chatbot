@@ -1,0 +1,11 @@
+[2022-08-26 09:27:41.221] [exthost] [info] Extension host with pid 636080 started
+[2022-08-26 09:27:41.446] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-08-26 09:27:41.451] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-08-26 09:27:41.455] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-08-26 09:27:41.685] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-08-26 09:27:41.754] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-08-26 09:27:42.072] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 09:27:42.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-08-26 09:27:42.091] [exthost] [info] Eager extensions activated
+[2022-08-26 09:27:45.353] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2022-08-26 09:27:45.359] [exthost] [info] Extension host with pid 636080 exiting with code 0

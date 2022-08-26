@@ -365,3 +365,4 @@ git merge origin/master
 sudo su -
 python3 index.py
 sudo su -
+exit
