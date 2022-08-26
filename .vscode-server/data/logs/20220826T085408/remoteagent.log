@@ -171,3 +171,13 @@
 [2022-08-26 16:25:42.754] [remoteagent] [error] Error: Unexpected SIGPIPE
     at process.<anonymous> (/home/miura/.vscode-server/bin/e4503b30fc78200f846c62cf8091b76ff5547662/out/vs/server/node/server.main.js:145:7922)
     at process.emit (node:events:390:28)
+[2022-08-26 16:30:40.988] [remoteagent] [info] [127.0.0.1][e65835be][ExtensionHostConnection] <937264> Extension Host Process exited with code: 0, signal: null.
+[2022-08-26 16:32:29.566] [remoteagent] [info] [127.0.0.1][0cefeb9a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2022-08-26 16:32:29.590] [remoteagent] [info] [127.0.0.1][9ce16126][ExtensionHostConnection] <956205> Extension Host Process exited with code: 0, signal: null.
+[2022-08-26 16:32:29.590] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2022-08-26 16:32:55.346] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2022-08-26 16:32:55.346] [remoteagent] [info] Cancelling previous shutdown timeout
+[2022-08-26 16:32:55.801] [remoteagent] [info] [127.0.0.1][1b123d5b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2022-08-26 16:32:55.802] [remoteagent] [info] [127.0.0.1][aa5b0ff0][ManagementConnection] New connection established.
+[2022-08-26 16:32:55.840] [remoteagent] [info] [127.0.0.1][cb11ea4e][ExtensionHostConnection] New connection established.
+[2022-08-26 16:32:55.846] [remoteagent] [info] [127.0.0.1][cb11ea4e][ExtensionHostConnection] <963071> Launched Extension Host Process.
