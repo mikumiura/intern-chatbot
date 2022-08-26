@@ -1,0 +1,25 @@
+[2022-08-26T07:00:21.411Z] ログ レベル: Info
+[2022-08-26T07:00:21.419Z] [info] Git の検証が検出されました: git
+[2022-08-26T07:00:21.456Z] [info] git から Git 2.34.1 を使用しています
+[2022-08-26T07:00:21.490Z] > git rev-parse --show-toplevel [24ms]
+[2022-08-26T07:00:21.501Z] > git rev-parse --git-dir --git-common-dir [5ms]
+[2022-08-26T07:00:21.507Z] [info] Open repository: /home/miura
+[2022-08-26T07:00:21.596Z] > git status -z -uall [82ms]
+[2022-08-26T07:00:21.602Z] > git symbolic-ref --short HEAD [1ms]
+[2022-08-26T07:00:21.607Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/locate-box refs/remotes/feature/locate-box [1ms]
+[2022-08-26T07:00:21.615Z] > git remote --verbose [1ms]
+[2022-08-26T07:00:21.616Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-08-26T07:00:21.649Z] > git config --get commit.template [19ms]
+[2022-08-26T07:00:21.715Z] > git status -z -uall [61ms]
+[2022-08-26T07:00:21.825Z] > git symbolic-ref --short HEAD [105ms]
+[2022-08-26T07:00:21.834Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/feature/locate-box refs/remotes/feature/locate-box [4ms]
+[2022-08-26T07:00:21.843Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-08-26T07:00:21.844Z] > git remote --verbose [2ms]
+[2022-08-26T07:00:21.856Z] > git config --get commit.template [1ms]
+[2022-08-26T07:00:22.358Z] > git check-ignore -v -z --stdin [18ms]
+[2022-08-26T07:00:22.810Z] > git show --textconv :static/style.css [6ms]
+[2022-08-26T07:00:22.815Z] > git ls-files --stage -- /home/miura/static/style.css [6ms]
+[2022-08-26T07:00:22.820Z] > git cat-file -s 105e394a7ad784a9b73e9ae805c33f1cc4eac9ac [1ms]
+[2022-08-26T07:00:25.667Z] > git show --textconv :.gitignore [6ms]
+[2022-08-26T07:00:25.673Z] > git ls-files --stage -- /home/miura/.gitignore [7ms]
+[2022-08-26T07:00:25.678Z] > git cat-file -s 2eea525d885d5148108f6f3a9a8613863f783d36 [1ms]

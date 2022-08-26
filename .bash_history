@@ -365,3 +365,27 @@ git merge origin/master
 sudo su -
 python3 index.py
 sudo su -
+exit
+git branch
+git diff
+git add .
+git status
+git commit -m "20220825 commit"
+git status
+git push origin feature/get-name
+git fetch origin
+git checkout -b "feature/locate-box"
+git branch
+git merge origin/feature/locate-box
+git merge origin/master
+git brach
+git branch
+history
+git branch
+git add .
+git commit -m "とりあえずignoreのコミット"
+git branch
+git push origin feature/locate-box
+git status
+git add .
+git commit

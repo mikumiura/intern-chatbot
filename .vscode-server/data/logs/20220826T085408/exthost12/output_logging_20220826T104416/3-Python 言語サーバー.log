@@ -1,0 +1,14 @@
+[Info  - 10:44:54 AM] (694007) Pylance language server 2022.8.40 (pyright f444ffa5) starting
+[Info  - 10:44:54 AM] (694007) Server root directory: /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.40/dist
+[Info  - 10:44:54 AM] (694007) Starting service instance "intern1"
+[Info  - 10:44:54 AM] (694007) Notebook support: LSP
+[Info  - 10:44:54 AM] (694007) Interactive window support: LSP
+[Info  - 10:44:54 AM] (694007) No configuration file found.
+[Info  - 10:44:54 AM] (694007) No pyproject.toml file found.
+[Info  - 10:44:54 AM] (694007) Setting pythonPath for service "intern1": "/Users/miura.m/.pyenv/versions/3.10.4/bin/python"
+[Warn  - 10:44:54 AM] (694007) stubPath /home/intern1/typings is not a valid directory.
+[Info  - 10:44:54 AM] (694007) Assuming Python platform Linux
+[Info  - 10:44:54 AM] (694007) Searching for source files
+[Info  - 10:44:54 AM] (694007) Found 5 source files
+[Info  - 10:44:54 AM] (694007) Background analysis(1) root directory: /home/miura/.vscode-server/extensions/ms-python.vscode-pylance-2022.8.40/dist
+[Info  - 10:44:54 AM] (694007) Background analysis(1) started

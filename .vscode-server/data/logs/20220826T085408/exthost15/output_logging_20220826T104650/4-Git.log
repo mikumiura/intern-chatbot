@@ -1,0 +1,17 @@
+[2022-08-26T01:46:54.623Z] ログ レベル: Info
+[2022-08-26T01:46:54.629Z] [info] Git の検証が検出されました: git
+[2022-08-26T01:46:54.663Z] [info] git から Git 2.34.1 を使用しています
+[2022-08-26T01:46:54.703Z] > git rev-parse --show-toplevel [24ms]
+[2022-08-26T01:46:54.703Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-26T01:46:54.722Z] > git rev-parse --show-toplevel [6ms]
+[2022-08-26T01:46:54.722Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-26T01:46:54.748Z] > git rev-parse --show-toplevel [2ms]
+[2022-08-26T01:46:54.748Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-26T01:46:54.756Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-26T01:46:54.756Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-26T01:46:54.764Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-26T01:46:54.764Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-26T01:46:55.248Z] > git rev-parse --show-toplevel [1ms]
+[2022-08-26T01:46:55.248Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-08-26T01:46:55.280Z] > git rev-parse --show-toplevel [5ms]
+[2022-08-26T01:46:55.281Z] fatal: not a git repository (or any of the parent directories): .git

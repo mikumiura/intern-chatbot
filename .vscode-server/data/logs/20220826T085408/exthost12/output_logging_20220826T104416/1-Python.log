@@ -1,0 +1,18 @@
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> /Users/miura.m/.pyenv/versions/3.10.4/bin/python ~/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+[ERROR 2022-7-26 10:44:53.608]: [Error: Command failed: /Users/miura.m/.pyenv/versions/3.10.4/bin/python /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /Users/miura.m/.pyenv/versions/3.10.4/bin/python: not found
+
+	at ChildProcess.exithandler (node:child_process:397:12)
+	at ChildProcess.emit (node:events:390:28)
+	at maybeClose (node:internal/child_process:1064:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:390:28)
+	at Pipe.<anonymous> (node:net:687:12)] {
+  killed: false,
+  code: 127,
+  signal: null,
+  cmd: '/Users/miura.m/.pyenv/versions/3.10.4/bin/python /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/get_output_via_markers.py /home/miura/.vscode-server/extensions/ms-python.python-2022.12.1/pythonFiles/interpreterInfo.py'
+}
+Pylance 言語サーバーを開始しています。
