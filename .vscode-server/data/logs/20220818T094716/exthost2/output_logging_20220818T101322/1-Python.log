@@ -1,7 +1,0 @@
-LSP Notebooks experiment is enabled
-LSP Notebooks interactive window support is enabled
-Python インタープリター パス: /usr/bin/python3
-> conda info --json
-> /bin/python3 ./.vscode-server/extensions/ms-python.python-2022.12.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2022.12.0/pythonFiles/interpreterInfo.py
-> /usr/bin/python3 ./.vscode-server/extensions/ms-python.python-2022.12.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2022.12.0/pythonFiles/interpreterInfo.py
-Pylance 言語サーバーを開始しています。
