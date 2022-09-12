@@ -401,3 +401,18 @@ sudo su -
 exit
 sudo su -
 exit
+git branch
+git add .
+git commit -m "ボックスを配置"
+git branch
+git push origin feature/locate-box
+sudo su -
+exit
+sudo su -
+exit
+history
+git commit -m "ignoreのコミット2"
+sudo su -
+exit
+sudo su -
+exit

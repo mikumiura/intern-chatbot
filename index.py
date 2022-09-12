@@ -7,7 +7,6 @@
 # python3の基礎文法のわかりやすいサイト：https://note.nkmk.me/python/
 
 # 使用するモジュールのインポート
-from glob import glob
 from urllib import response
 from flask import Flask, Response, request, render_template
 from logging import getLogger, FileHandler, DEBUG, Formatter
